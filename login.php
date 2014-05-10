@@ -24,6 +24,7 @@
 		<link type="text/css" href="stylesheet.css" rel="stylesheet">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/forlogin.js"></script> 
+		<script type="text/javascript" src="task4.js"></script> 
 		<title>Авторизація</title>
 		<body>
 <?
