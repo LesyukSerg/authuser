@@ -35,7 +35,7 @@
 			<div class="main_content">
 				<div class="user_profile">
 <?
-					if($usrData = user_profile($_SESSION['login'])){
+					if($usrData = FILE::user_profile($_SESSION['login'])){
 ?>
 						<div class="data">Login: <b><?=$usrData[0]?></b></div>
 						<div class="data">E-mail: <b><?=$usrData[1]?></b></div>

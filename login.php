@@ -5,7 +5,7 @@
 
 	if(!isset($_GET['err'])) $_GET['err'] = NULL;
 	
-	if(check_session() && !$_GET['err']){
+	if(USER::check_session() && !$_GET['err']){
 		header("Location: index.php");
 	}
 	
